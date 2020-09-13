@@ -1,8 +1,8 @@
-### RRT on Turtle-Sim
+# RRT on Turtle-Sim
 
 ## Task Round Projects
 
-# The Turtle And the Hare (Run the turtle in ROS simulator using a sample maze image)
+### The Turtle And the Hare (Run the turtle in ROS simulator using a sample maze image)
 1. "rrt.png" is used as the maze for the planning task. The turtle is moved from the top left corner of the image to the bottom right corner.
 2.  rrtclient.cpp generates the path and send information about the path to turtleserver.py which forwards it to turtle.cpp (which runs our turtle simulator. Socket programming has been used for communication between client and server)
 3.  turtle.cpp connects to the turtlesim_node using "cmd_vel" and "pose" topics
